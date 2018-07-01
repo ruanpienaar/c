@@ -1,6 +1,6 @@
 #!/bin/bash
+#set -x
 source ~/code/bash/common
-clbackup
 rm -rf bin/*.out
 if [ -z $1 ]; then 
   SC=`ls| grep ".c" | grep -v '.sh'`

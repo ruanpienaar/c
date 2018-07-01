@@ -1,6 +1,6 @@
 /*Filename : c
-  Author   : rp
-  Created  : Tue Feb 21 20:58:06 SAST 2012
+*  Author   : rp
+*  Created  : Tue Feb 21 20:58:06 SAST 2012
 */
 #include <stdio.h>
 int main(){
@@ -28,7 +28,12 @@ int main(){
   //enter a number between 1 and 1000
   //10
   //Segmentation fault: 11
-
+  
+  
+  char key;
+  key=getchar();
+  printf("Your char was %c\n", key);
+  
   
   return 0;
 }
